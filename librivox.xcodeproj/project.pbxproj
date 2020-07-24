@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A13A7BB24CA825000D5BFE0 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A13A7BA24CA825000D5BFE0 /* Tests_iOS.swift */; };
+		5A13A7C624CA825000D5BFE0 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A13A7C524CA825000D5BFE0 /* Tests_macOS.swift */; };
+		5A13A7C824CA825000D5BFE0 /* librivoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A13A79F24CA824F00D5BFE0 /* librivoxApp.swift */; };
+		5A13A7C924CA825000D5BFE0 /* librivoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A13A79F24CA824F00D5BFE0 /* librivoxApp.swift */; };
+		5A13A7CA24CA825000D5BFE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A13A7A024CA824F00D5BFE0 /* ContentView.swift */; };
+		5A13A7CB24CA825000D5BFE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A13A7A024CA824F00D5BFE0 /* ContentView.swift */; };
+		5A13A7CC24CA825000D5BFE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A13A7A124CA825000D5BFE0 /* Assets.xcassets */; };
+		5A13A7CD24CA825000D5BFE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A13A7A124CA825000D5BFE0 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A13A7B724CA825000D5BFE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A13A79A24CA824F00D5BFE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A13A7A524CA825000D5BFE0;
+			remoteInfo = "librivox (iOS)";
+		};
+		5A13A7C224CA825000D5BFE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A13A79A24CA824F00D5BFE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A13A7AD24CA825000D5BFE0;
+			remoteInfo = "librivox (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A13A79F24CA824F00D5BFE0 /* librivoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = librivoxApp.swift; sourceTree = "<group>"; };
+		5A13A7A024CA824F00D5BFE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5A13A7A124CA825000D5BFE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A13A7A624CA825000D5BFE0 /* librivox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = librivox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A13A7A924CA825000D5BFE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A13A7AE24CA825000D5BFE0 /* librivox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = librivox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A13A7B024CA825000D5BFE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A13A7B124CA825000D5BFE0 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		5A13A7B624CA825000D5BFE0 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A13A7BA24CA825000D5BFE0 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		5A13A7BC24CA825000D5BFE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A13A7C124CA825000D5BFE0 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A13A7C524CA825000D5BFE0 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		5A13A7C724CA825000D5BFE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A13A7A324CA825000D5BFE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A13A7AB24CA825000D5BFE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A13A7B324CA825000D5BFE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A13A7BE24CA825000D5BFE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A13A79924CA824F00D5BFE0 = {
+			isa = PBXGroup;
+			children = (
+				5A13A79E24CA824F00D5BFE0 /* Shared */,
+				5A13A7A824CA825000D5BFE0 /* iOS */,
+				5A13A7AF24CA825000D5BFE0 /* macOS */,
+				5A13A7B924CA825000D5BFE0 /* Tests iOS */,
+				5A13A7C424CA825000D5BFE0 /* Tests macOS */,
+				5A13A7A724CA825000D5BFE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A13A79E24CA824F00D5BFE0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				5A13A79F24CA824F00D5BFE0 /* librivoxApp.swift */,
+				5A13A7A024CA824F00D5BFE0 /* ContentView.swift */,
+				5A13A7A124CA825000D5BFE0 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		5A13A7A724CA825000D5BFE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A13A7A624CA825000D5BFE0 /* librivox.app */,
+				5A13A7AE24CA825000D5BFE0 /* librivox.app */,
+				5A13A7B624CA825000D5BFE0 /* Tests iOS.xctest */,
+				5A13A7C124CA825000D5BFE0 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A13A7A824CA825000D5BFE0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A13A7A924CA825000D5BFE0 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		5A13A7AF24CA825000D5BFE0 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A13A7B024CA825000D5BFE0 /* Info.plist */,
+				5A13A7B124CA825000D5BFE0 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		5A13A7B924CA825000D5BFE0 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A13A7BA24CA825000D5BFE0 /* Tests_iOS.swift */,
+				5A13A7BC24CA825000D5BFE0 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		5A13A7C424CA825000D5BFE0 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A13A7C524CA825000D5BFE0 /* Tests_macOS.swift */,
+				5A13A7C724CA825000D5BFE0 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A13A7A524CA825000D5BFE0 /* librivox (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A13A7D024CA825000D5BFE0 /* Build configuration list for PBXNativeTarget "librivox (iOS)" */;
+			buildPhases = (
+				5A13A7A224CA825000D5BFE0 /* Sources */,
+				5A13A7A324CA825000D5BFE0 /* Frameworks */,
+				5A13A7A424CA825000D5BFE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "librivox (iOS)";
+			productName = "librivox (iOS)";
+			productReference = 5A13A7A624CA825000D5BFE0 /* librivox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A13A7AD24CA825000D5BFE0 /* librivox (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A13A7D324CA825000D5BFE0 /* Build configuration list for PBXNativeTarget "librivox (macOS)" */;
+			buildPhases = (
+				5A13A7AA24CA825000D5BFE0 /* Sources */,
+				5A13A7AB24CA825000D5BFE0 /* Frameworks */,
+				5A13A7AC24CA825000D5BFE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "librivox (macOS)";
+			productName = "librivox (macOS)";
+			productReference = 5A13A7AE24CA825000D5BFE0 /* librivox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A13A7B524CA825000D5BFE0 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A13A7D624CA825000D5BFE0 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				5A13A7B224CA825000D5BFE0 /* Sources */,
+				5A13A7B324CA825000D5BFE0 /* Frameworks */,
+				5A13A7B424CA825000D5BFE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A13A7B824CA825000D5BFE0 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 5A13A7B624CA825000D5BFE0 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5A13A7C024CA825000D5BFE0 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A13A7D924CA825000D5BFE0 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				5A13A7BD24CA825000D5BFE0 /* Sources */,
+				5A13A7BE24CA825000D5BFE0 /* Frameworks */,
+				5A13A7BF24CA825000D5BFE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A13A7C324CA825000D5BFE0 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 5A13A7C124CA825000D5BFE0 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A13A79A24CA824F00D5BFE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					5A13A7A524CA825000D5BFE0 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					5A13A7AD24CA825000D5BFE0 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					5A13A7B524CA825000D5BFE0 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 5A13A7A524CA825000D5BFE0;
+					};
+					5A13A7C024CA825000D5BFE0 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 5A13A7AD24CA825000D5BFE0;
+					};
+				};
+			};
+			buildConfigurationList = 5A13A79D24CA824F00D5BFE0 /* Build configuration list for PBXProject "librivox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A13A79924CA824F00D5BFE0;
+			productRefGroup = 5A13A7A724CA825000D5BFE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A13A7A524CA825000D5BFE0 /* librivox (iOS) */,
+				5A13A7AD24CA825000D5BFE0 /* librivox (macOS) */,
+				5A13A7B524CA825000D5BFE0 /* Tests iOS */,
+				5A13A7C024CA825000D5BFE0 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A13A7A424CA825000D5BFE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A13A7CC24CA825000D5BFE0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A13A7AC24CA825000D5BFE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A13A7CD24CA825000D5BFE0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A13A7B424CA825000D5BFE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A13A7BF24CA825000D5BFE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A13A7A224CA825000D5BFE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A13A7CA24CA825000D5BFE0 /* ContentView.swift in Sources */,
+				5A13A7C824CA825000D5BFE0 /* librivoxApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A13A7AA24CA825000D5BFE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A13A7CB24CA825000D5BFE0 /* ContentView.swift in Sources */,
+				5A13A7C924CA825000D5BFE0 /* librivoxApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A13A7B224CA825000D5BFE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A13A7BB24CA825000D5BFE0 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A13A7BD24CA825000D5BFE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A13A7C624CA825000D5BFE0 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A13A7B824CA825000D5BFE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A13A7A524CA825000D5BFE0 /* librivox (iOS) */;
+			targetProxy = 5A13A7B724CA825000D5BFE0 /* PBXContainerItemProxy */;
+		};
+		5A13A7C324CA825000D5BFE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A13A7AD24CA825000D5BFE0 /* librivox (macOS) */;
+			targetProxy = 5A13A7C224CA825000D5BFE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A13A7CE24CA825000D5BFE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A13A7CF24CA825000D5BFE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5A13A7D124CA825000D5BFE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9KD6Z92BF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weizhi.xie.librivox;
+				PRODUCT_NAME = librivox;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A13A7D224CA825000D5BFE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9KD6Z92BF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weizhi.xie.librivox;
+				PRODUCT_NAME = librivox;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A13A7D424CA825000D5BFE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z9KD6Z92BF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weizhi.xie.librivox;
+				PRODUCT_NAME = librivox;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5A13A7D524CA825000D5BFE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z9KD6Z92BF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weizhi.xie.librivox;
+				PRODUCT_NAME = librivox;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5A13A7D724CA825000D5BFE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9KD6Z92BF;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weizhi.xie.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "librivox (iOS)";
+			};
+			name = Debug;
+		};
+		5A13A7D824CA825000D5BFE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9KD6Z92BF;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weizhi.xie.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "librivox (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A13A7DA24CA825000D5BFE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z9KD6Z92BF;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weizhi.xie.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "librivox (macOS)";
+			};
+			name = Debug;
+		};
+		5A13A7DB24CA825000D5BFE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z9KD6Z92BF;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weizhi.xie.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "librivox (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A13A79D24CA824F00D5BFE0 /* Build configuration list for PBXProject "librivox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A13A7CE24CA825000D5BFE0 /* Debug */,
+				5A13A7CF24CA825000D5BFE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A13A7D024CA825000D5BFE0 /* Build configuration list for PBXNativeTarget "librivox (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A13A7D124CA825000D5BFE0 /* Debug */,
+				5A13A7D224CA825000D5BFE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A13A7D324CA825000D5BFE0 /* Build configuration list for PBXNativeTarget "librivox (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A13A7D424CA825000D5BFE0 /* Debug */,
+				5A13A7D524CA825000D5BFE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A13A7D624CA825000D5BFE0 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A13A7D724CA825000D5BFE0 /* Debug */,
+				5A13A7D824CA825000D5BFE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A13A7D924CA825000D5BFE0 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A13A7DA24CA825000D5BFE0 /* Debug */,
+				5A13A7DB24CA825000D5BFE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A13A79A24CA824F00D5BFE0 /* Project object */;
+}
