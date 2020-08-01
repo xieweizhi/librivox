@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,10 +11,25 @@
 		5A13A7C624CA825000D5BFE0 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A13A7C524CA825000D5BFE0 /* Tests_macOS.swift */; };
 		5A13A7C824CA825000D5BFE0 /* librivoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A13A79F24CA824F00D5BFE0 /* librivoxApp.swift */; };
 		5A13A7C924CA825000D5BFE0 /* librivoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A13A79F24CA824F00D5BFE0 /* librivoxApp.swift */; };
-		5A13A7CA24CA825000D5BFE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A13A7A024CA824F00D5BFE0 /* ContentView.swift */; };
-		5A13A7CB24CA825000D5BFE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A13A7A024CA824F00D5BFE0 /* ContentView.swift */; };
 		5A13A7CC24CA825000D5BFE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A13A7A124CA825000D5BFE0 /* Assets.xcassets */; };
 		5A13A7CD24CA825000D5BFE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A13A7A124CA825000D5BFE0 /* Assets.xcassets */; };
+		5A17127324D4F62E0073C8BF /* BookRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A17127224D4F62D0073C8BF /* BookRowView.swift */; };
+		5A17127624D5048E0073C8BF /* RedactingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A17127524D5048E0073C8BF /* RedactingView.swift */; };
+		5A30CF2E24D3D1FC003CC2B8 /* BookDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A30CF2D24D3D1FC003CC2B8 /* BookDetails.swift */; };
+		5A30CF3424D3F0D1003CC2B8 /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 5A30CF3324D3F0D1003CC2B8 /* KingfisherSwiftUI */; };
+		5A38CD5D24D3FB6500B451EC /* BookDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A38CD5C24D3FB6500B451EC /* BookDetailsViewModel.swift */; };
+		5A38CD5F24D3FC7000B451EC /* AudioResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A38CD5E24D3FC7000B451EC /* AudioResult.swift */; };
+		5A38CD6124D3FD8700B451EC /* Audio+Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A38CD6024D3FD8700B451EC /* Audio+Network.swift */; };
+		5A38CD6624D4098F00B451EC /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A38CD6524D4098F00B451EC /* AudioPlayer.swift */; };
+		5A38CD6824D409A000B451EC /* AudioPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A38CD6724D409A000B451EC /* AudioPlayerViewModel.swift */; };
+		5A4C79F024D12BFA0076A124 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C79EF24D12BFA0076A124 /* Network.swift */; };
+		5A4C79F424D12F3C0076A124 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C79F324D12F3C0076A124 /* Book.swift */; };
+		5A4C79F724D130250076A124 /* BookListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C79F624D130250076A124 /* BookListViewModel.swift */; };
+		5A4C79FB24D14D340076A124 /* Book+Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C79FA24D14D340076A124 /* Book+Network.swift */; };
+		5A4C79FD24D14D6E0076A124 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C79FC24D14D6E0076A124 /* Endpoint.swift */; };
+		5A4C79FF24D14FFC0076A124 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C79FE24D14FFC0076A124 /* NetworkError.swift */; };
+		5A4C7A0324D1533C0076A124 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C7A0224D1533C0076A124 /* HomeView.swift */; };
+		5A4C7A0524D15F690076A124 /* DocsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C7A0424D15F690076A124 /* DocsResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +51,6 @@
 
 /* Begin PBXFileReference section */
 		5A13A79F24CA824F00D5BFE0 /* librivoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = librivoxApp.swift; sourceTree = "<group>"; };
-		5A13A7A024CA824F00D5BFE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5A13A7A124CA825000D5BFE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A13A7A624CA825000D5BFE0 /* librivox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = librivox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A13A7A924CA825000D5BFE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +63,22 @@
 		5A13A7C124CA825000D5BFE0 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A13A7C524CA825000D5BFE0 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		5A13A7C724CA825000D5BFE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A17127224D4F62D0073C8BF /* BookRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRowView.swift; sourceTree = "<group>"; };
+		5A17127524D5048E0073C8BF /* RedactingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedactingView.swift; sourceTree = "<group>"; };
+		5A30CF2D24D3D1FC003CC2B8 /* BookDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetails.swift; sourceTree = "<group>"; };
+		5A38CD5C24D3FB6500B451EC /* BookDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsViewModel.swift; sourceTree = "<group>"; };
+		5A38CD5E24D3FC7000B451EC /* AudioResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioResult.swift; sourceTree = "<group>"; };
+		5A38CD6024D3FD8700B451EC /* Audio+Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Audio+Network.swift"; sourceTree = "<group>"; };
+		5A38CD6524D4098F00B451EC /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		5A38CD6724D409A000B451EC /* AudioPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerViewModel.swift; sourceTree = "<group>"; };
+		5A4C79EF24D12BFA0076A124 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		5A4C79F324D12F3C0076A124 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		5A4C79F624D130250076A124 /* BookListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListViewModel.swift; sourceTree = "<group>"; };
+		5A4C79FA24D14D340076A124 /* Book+Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+Network.swift"; sourceTree = "<group>"; };
+		5A4C79FC24D14D6E0076A124 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		5A4C79FE24D14FFC0076A124 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		5A4C7A0224D1533C0076A124 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5A4C7A0424D15F690076A124 /* DocsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocsResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A30CF3424D3F0D1003CC2B8 /* KingfisherSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,8 +129,11 @@
 		5A13A79E24CA824F00D5BFE0 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				5A4C7A0024D153290076A124 /* Features */,
+				5A4C79F524D1301D0076A124 /* ViewModels */,
+				5A4C79ED24D12B400076A124 /* Services */,
+				5A13A7DC24CA826D00D5BFE0 /* Models */,
 				5A13A79F24CA824F00D5BFE0 /* librivoxApp.swift */,
-				5A13A7A024CA824F00D5BFE0 /* ContentView.swift */,
 				5A13A7A124CA825000D5BFE0 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -151,6 +185,74 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		5A13A7DC24CA826D00D5BFE0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A4C79F324D12F3C0076A124 /* Book.swift */,
+				5A38CD5E24D3FC7000B451EC /* AudioResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A17127424D504710073C8BF /* Redacting */ = {
+			isa = PBXGroup;
+			children = (
+				5A17127524D5048E0073C8BF /* RedactingView.swift */,
+			);
+			path = Redacting;
+			sourceTree = "<group>";
+		};
+		5A4C79ED24D12B400076A124 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5A4C79EE24D12B420076A124 /* Network */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5A4C79EE24D12B420076A124 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5A4C79F924D14D210076A124 /* Models */,
+				5A4C79EF24D12BFA0076A124 /* Network.swift */,
+				5A4C79FE24D14FFC0076A124 /* NetworkError.swift */,
+				5A4C79FC24D14D6E0076A124 /* Endpoint.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5A4C79F524D1301D0076A124 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5A4C79F624D130250076A124 /* BookListViewModel.swift */,
+				5A38CD5C24D3FB6500B451EC /* BookDetailsViewModel.swift */,
+				5A38CD6724D409A000B451EC /* AudioPlayerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5A4C79F924D14D210076A124 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A4C79FA24D14D340076A124 /* Book+Network.swift */,
+				5A38CD6024D3FD8700B451EC /* Audio+Network.swift */,
+				5A4C7A0424D15F690076A124 /* DocsResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A4C7A0024D153290076A124 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				5A17127424D504710073C8BF /* Redacting */,
+				5A17127224D4F62D0073C8BF /* BookRowView.swift */,
+				5A38CD6524D4098F00B451EC /* AudioPlayer.swift */,
+				5A30CF2D24D3D1FC003CC2B8 /* BookDetails.swift */,
+				5A4C7A0224D1533C0076A124 /* HomeView.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +269,9 @@
 			dependencies = (
 			);
 			name = "librivox (iOS)";
+			packageProductDependencies = (
+				5A30CF3324D3F0D1003CC2B8 /* KingfisherSwiftUI */,
+			);
 			productName = "librivox (iOS)";
 			productReference = 5A13A7A624CA825000D5BFE0 /* librivox.app */;
 			productType = "com.apple.product-type.application";
@@ -258,6 +363,9 @@
 				Base,
 			);
 			mainGroup = 5A13A79924CA824F00D5BFE0;
+			packageReferences = (
+				5A30CF3224D3F0D1003CC2B8 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 5A13A7A724CA825000D5BFE0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -308,8 +416,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A13A7CA24CA825000D5BFE0 /* ContentView.swift in Sources */,
+				5A4C7A0324D1533C0076A124 /* HomeView.swift in Sources */,
+				5A38CD6824D409A000B451EC /* AudioPlayerViewModel.swift in Sources */,
+				5A38CD5F24D3FC7000B451EC /* AudioResult.swift in Sources */,
+				5A4C79FF24D14FFC0076A124 /* NetworkError.swift in Sources */,
 				5A13A7C824CA825000D5BFE0 /* librivoxApp.swift in Sources */,
+				5A4C79FD24D14D6E0076A124 /* Endpoint.swift in Sources */,
+				5A4C7A0524D15F690076A124 /* DocsResponse.swift in Sources */,
+				5A38CD5D24D3FB6500B451EC /* BookDetailsViewModel.swift in Sources */,
+				5A38CD6124D3FD8700B451EC /* Audio+Network.swift in Sources */,
+				5A4C79FB24D14D340076A124 /* Book+Network.swift in Sources */,
+				5A17127324D4F62E0073C8BF /* BookRowView.swift in Sources */,
+				5A17127624D5048E0073C8BF /* RedactingView.swift in Sources */,
+				5A4C79F024D12BFA0076A124 /* Network.swift in Sources */,
+				5A4C79F424D12F3C0076A124 /* Book.swift in Sources */,
+				5A4C79F724D130250076A124 /* BookListViewModel.swift in Sources */,
+				5A30CF2E24D3D1FC003CC2B8 /* BookDetails.swift in Sources */,
+				5A38CD6624D4098F00B451EC /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +440,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A13A7CB24CA825000D5BFE0 /* ContentView.swift in Sources */,
 				5A13A7C924CA825000D5BFE0 /* librivoxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -696,6 +818,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A30CF3224D3F0D1003CC2B8 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.14.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A30CF3324D3F0D1003CC2B8 /* KingfisherSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A30CF3224D3F0D1003CC2B8 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = KingfisherSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5A13A79A24CA824F00D5BFE0 /* Project object */;
 }

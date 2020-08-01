@@ -2,7 +2,7 @@
 //  librivoxApp.swift
 //  Shared
 //
-//  Created by weizhi on 2020/7/24.
+//  Created by weizhi.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct librivoxApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView(viewModel: BookListViewModel())
         }
     }
 }
